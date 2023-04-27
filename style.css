@@ -34,3 +34,41 @@ a {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.hero-section {
+  display: flex;
+  background-color: #1F2937;
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 100px;
+  gap: 24px;
+}
+
+.hero-title {
+  color: #f9faf8;
+  /* font-family: Roboto, sans-serif; */
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero-subtitle {
+  color: #e5e7eb;
+  /* font-family: Roboto, sans-serif; */
+  font-size: 18px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  color: #e5e7eb;
+  border: none;
+  border-radius: 8px;
+  background: #3882F6;
+  padding: 8px 20px;
+  margin-top: 16px;
+
+}
+.hero-left {
+  width: 400px; 
+}
+
