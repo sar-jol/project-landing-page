@@ -2,7 +2,8 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
     font-family: Roboto, sans-serif;
   }
 .header {
@@ -17,6 +18,7 @@ body {
 }
 
 .right-link {
+  font-weight: 300;
   display:flex;
   align-items: center;
   margin: 0;
@@ -46,29 +48,125 @@ a {
 
 .hero-title {
   color: #f9faf8;
-  /* font-family: Roboto, sans-serif; */
   font-size: 48px;
-  font-weight: bolder;
+  font-weight: 800;
 }
 
 .hero-subtitle {
   color: #e5e7eb;
-  /* font-family: Roboto, sans-serif; */
   font-size: 18px;
 }
 
-button {
+.hero-signup {
   font-family: Roboto, sans-serif;
   font-size: 18px;
   color: #e5e7eb;
   border: none;
   border-radius: 8px;
   background: #3882F6;
-  padding: 8px 20px;
+  padding: 8px 24px;
   margin-top: 16px;
-
 }
 .hero-left {
-  width: 400px; 
+  width: 450px; 
 }
+
+.information{
+text-align: center;
+padding-bottom: 120px;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin: 56px;
+}
+
+.info-image {
+  display:flex;
+  justify-content: space-evenly;
+  /* gap: 24px; */
+  margin-left: 240px;
+  margin-right: 240px;
+}
+
+.ib{
+  font-size: 18px;
+  color:#818385;
+  width: 200px;
+}
+.quote{
+  background-color: #e5e7eb;
+  padding: 72px 300px 56px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: justify;
+  margin-bottom: 8px;
+}
+
+.quote-by {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: right;
+}
+
+.cta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 200px;
+}
+
+.cta-content{
+  background-color: #3882F6;
+  color:#e5e7eb;
+  flex: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 48px 24px;
+  border-radius: 8px;
+}
+
+.cta-left {
+  padding:-8px;
+}
+
+.cta-right {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  color: #e5e7eb;
+  border: 2px solid;
+  border-radius: 8px;
+  background-color: #3882F6;
+  padding: 8px 32px;
+  margin-top: 16px;
+}
+
+h1 {
+  font-size: 24px;
+  margin:0;
+}
+
+p{
+  font-size: 18px;
+  margin:0;
+}
+
+.footer {
+  background-color: #1F2937;
+  font-size: 18px;
+  font-weight: 400;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 40px;
+}
+
+
+
 
